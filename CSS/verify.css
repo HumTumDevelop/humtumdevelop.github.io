@@ -1,0 +1,100 @@
+body {
+	background-image: linear-gradient(to right, #2FF003, #178F00);
+	margin-top: 50px !important
+	font-family: 'Antic Slab', serif;
+}
+
+.register-left
+{
+	text-align: center;
+	color: #fff;
+	padding:50px;
+}
+
+.register-left p
+{
+	padding: 20px 20px 0;
+}
+
+.register-left .btn-primary{
+	border-radius: 1.5rem;
+	border: none;
+	width: 120px;
+	background: #f8f8f8;
+	font-weight: 600;
+	color: #555;
+	margin-top: 20px;
+	padding:10px ;
+}
+
+.register-left .btn-primary:hover{
+	background: #000;
+}
+
+.register-right{
+	border: none;
+	background: #f8f8f8;
+	border-radius: 5%;
+	padding: 50px; 
+}
+
+.register-right h2{
+	text-align: center;
+	margin-bottom: 10px;
+	color: #555;
+}
+
+.register_form{
+	padding: 30px;
+}
+
+.register-right .btn-primary{
+	border-radius: 1.5rem;
+	border: none;
+	width: 120px;
+	background: #178F00;
+	font-weight: 600;
+	color: #fff;
+}
+
+.register-right .btn-primary:hover{
+	background: #53BB36;
+}
+
+.register-left img{
+	margin-top: 60px;
+	margin-bottom:18px ;
+	width: 80px;
+	animation: mover 1s infinite alternate;
+}
+
+@keyframes mover{
+	0%{transform: translateY(0);}
+	100%{transform: translateY(-20px);}
+}
+
+.container{
+	margin: 50px;
+	margin-top: 10px;
+}
+
+#def {
+	margin-top: 100px;
+}
+
+.user .btn-primary {
+	margin: 5px;
+	border-style: 5px black solid;
+}
+
+.user .btn-primary:focus {
+	background-color: red;
+}
+
+#otp {
+	margin-top: 20px;
+}
+
+.user div {
+	background-color: #E8FEE5;
+}
